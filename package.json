@@ -3,21 +3,15 @@
   "version": "1.0.0",
   "description": "A lightweight JavaScript library for client-side bot detection and content protection",
   "main": "lib/samrakshaka.js",
-  "scripts": {
-    "lint": "eslint lib/",
-    "test": "echo \"Add test script here\" && exit 0"
-  },
+  "files": [
+    "lib/samrakshaka.js",
+    "lib/samrakshaka.min.js"
+  ],
   "keywords": ["bot-detection", "security", "javascript", "content-protection"],
-  "author": "Your Name",
+  "author": "Anurag Singh",
   "license": "MIT",
-  "dependencies": {
-    "dompurify": "^3.1.6"
-  },
-  "devDependencies": {
-    "eslint": "^8.0.0"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/houseofanurag/samrakshaka.git"
+    "url": "git+https://github.com/houseofanurag/samrakshaka.git"
   }
 }
