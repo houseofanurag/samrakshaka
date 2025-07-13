@@ -1,24 +1,26 @@
-# Contributing to Samrakshaka
+# Contributing to Samrakshaka.js
 
-Thank you for your interest in contributing to Samrakshaka! We welcome contributions to improve the library.
+Thank you for considering contributing to Samrakshaka.js! We welcome all contributions that help improve this bot protection library. Please take a moment to review these guidelines before submitting your contribution.
 
-## Getting Started
-1. Fork the repository.
-2. Clone your fork: `git clone https://github.com/your-username/samrakshaka.git`
-3. Create a branch: `git checkout -b feature/your-feature`
-4. Make changes and commit: `git commit -m "Add your feature"`
-5. Push to your fork: `git push origin feature/your-feature`
-6. Open a pull request.
+## How to Contribute
 
-## Code Style
-- Follow ESLint rules (see `.eslintrc.json`).
-- Ensure code is modular and generic.
-- Write clear commit messages.
+### 1. Reporting Issues
+- Check existing issues to avoid duplicates
+- Use the [issue template](.github/ISSUE_TEMPLATE.md)
+- Include:
+  - Samrakshaka version
+  - Browser/Node.js version
+  - Steps to reproduce
+  - Expected vs actual behavior
+  - Screenshots if applicable
 
-## Issues
-- Report bugs or suggest features via GitHub Issues.
-- Provide detailed descriptions and reproduction steps.
+### 2. Feature Requests
+- Open an issue with the "enhancement" label
+- Explain the problem your feature solves
+- Include examples or pseudocode if possible
 
-## Testing
-- Test changes in multiple browsers (Chrome, Firefox, Safari).
-- Ensure compatibility with CSP `script-src 'self'`.
+### 3. Code Contributions
+1. **Fork** the repository
+2. **Clone** your fork:
+   ```bash
+   git clone https://github.com/houseofanurag/samrakshaka.git
