@@ -1,0 +1,31 @@
+name: Security Report
+description: Report vulnerabilities (DO NOT disclose publicly)
+title: "[Security] "
+labels: ["security"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Important**: Email security@yourdomain.com instead for sensitive reports.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Vulnerability Description
+      placeholder: Impact, attack vectors, etc.
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Proof of Concept
+      placeholder: Code/configuration to reproduce
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Critical (remote code execution)
+        - High (data leakage)
+        - Medium (limited impact)
+        - Low (theoretical risk)
