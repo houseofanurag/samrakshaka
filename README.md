@@ -16,3 +16,10 @@ A lightweight client-side JavaScript library for bot detection and content prote
 ```html
 <samrakshaka mode="strict" challenge="both" protected-id="content"></samrakshaka>
 <!-- Include DOMPurify and samrakshaka.js -->
+
+## jsDelivr
+
+https://cdn.jsdelivr.net/gh/houseofanurag/samrakshaka@v1.0.0/lib/samrakshaka.js
+https://cdn.jsdelivr.net/gh/houseofanurag/samrakshaka@v1.0.0/lib/samrakshaka.min.js
+
+
