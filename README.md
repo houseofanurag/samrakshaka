@@ -1,3 +1,5 @@
+[![GitHub license](https://img.shields.io/github/license/houseofanurag/samrakshaka)](LICENSE)
+
 # Samrakshaka.js
 A lightweight client-side bot detection and content protection library.
 
